@@ -42,3 +42,20 @@ Imagine you are…
 ```bash
 max(0, min(last_min, last_max) - last_invalid)
 ```
+
+# [2302. Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/?envType=daily-question&envId=2025-04-28)
+
+### TL:DR
+Slide a window across nums, grow it, and shrink it if (sum * length) >= k.
+At every step, add (right - left + 1) to your count.
+O(n) time, O(1) space. Expand ➡️ Shrink ➡️ Count. Easy dubs.
+
+### Steps
+1. Initialize left = 0, current_sum = 0, count = 0.
+2.	For each right in range of nums:
+    - Add nums[right] to current_sum.
+	- While current_sum * window_length >= k, shrink window from left:
+	- Subtract nums[left] from current_sum.
+	- Move left by 1.
+	- After shrinking (if needed), add (right - left + 1) to count.
+3.	Return count.
