@@ -25,3 +25,14 @@ If the middle guy’s odd, skip it. If the first and third are smart enough to t
 |:-------------------------------|:---------------|:----------|:------------------------------------|
 | Set with loop (`seen.add()`)    | More verbose   | O(n)      | Traditional, very readable          |
 | Set with length compare (`len(nums) > len(set(nums))`) | ✨ One-liner | O(n) | Clean, cheeky, and interview GOLD 🌟 |
+
+
+# [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+
+### TL;DR
+Create a hashmap like storage. Add count if character occurs in first word, subtract if it occurs in second. That way, ideally it should be zero-zero so check for that.
+
+# [1. Two Sum](https://leetcode.com/problems/two-sum)
+
+### TL;DR
+Use a hashmap to track seen values. For each num, check if target - num exists.
