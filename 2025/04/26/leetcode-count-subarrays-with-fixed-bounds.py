@@ -1,6 +1,8 @@
 # Problem: 2444. Count Subarrays With Fixed Bounds [https://leetcode.com/problems/count-subarrays-with-fixed-bounds/description/?envType=daily-question&envId=2025-04-26]
 # Difficulty: Hard
 
+from typing import List
+
 # My solution: O(n), O(1)
 # 1. Initialize variables to track the last seen positions of minK, maxK, and invalid numbers.
 # 2. Iterate through the array, updating the positions based on the current number.

@@ -1,6 +1,8 @@
 # Problem: 2302. Count Subarrays With Score Less Than K [https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/?envType=daily-question&envId=2025-04-28]
 # Difficulty: Hard
 
+from typing import List
+
 # My solution: O(n), O(1)
 # 1. Initialize variables to track the left pointer, current sum, and count of valid subarrays.
 # 2. Iterate through the array with a right pointer.

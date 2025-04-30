@@ -1,6 +1,8 @@
 # Problem: 2962. Count Subarrays Where Max Element Appears at Least K Times [https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/?envType=daily-question&envId=2025-04-29]
 # Difficulty: Medium
 
+from typing import List
+
 # My solution: O(n), O(1)
 # 1. Find the maximum value in the array.
 # 2. Initialize pointers and counters.

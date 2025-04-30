@@ -1,6 +1,8 @@
 # Problem: 217. Contains Duplicate [https://leetcode.com/problems/contains-duplicate/]
 # Difficulty: Easy
 
+from typing import List
+
 # My solution: O(n), O(n)
 # 1. Convert the list to a set, which removes duplicates.
 # 2. Compare the length of the set with the original list.

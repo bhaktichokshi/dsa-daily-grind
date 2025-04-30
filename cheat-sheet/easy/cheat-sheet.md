@@ -36,3 +36,8 @@ Create a hashmap like storage. Add count if character occurs in first word, subt
 
 ### TL;DR
 Use a hashmap to track seen values. For each num, check if target - num exists.
+
+# [1295. Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/?envType=daily-question&envId=2025-04-30)
+
+### TL;DR
+Convert each number to a string, check if its length is even, and count how many pass. One-liner with a generator — clean and efficient.
