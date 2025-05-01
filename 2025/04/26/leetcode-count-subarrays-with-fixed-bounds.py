@@ -32,12 +32,12 @@ class Solution:
 
 # Intution O(n^2), O(1)
 count = 0
-for i in range(len(nums)):
-    min_val = max_val = nums[i]
-    for j in range(i, len(nums)):
-        min_val = min(min_val, nums[j])
-        max_val = max(max_val, nums[j])
-        if min_val == minK and max_val == maxK:
+for i in range(len(nums)): # type: ignore
+    min_val = max_val = nums[i] # type: ignore
+    for j in range(i, len(nums)): # type: ignore
+        min_val = min(min_val, nums[j]) # type: ignore
+        max_val = max(max_val, nums[j]) # type: ignore
+        if min_val == minK and max_val == maxK: # type: ignore
             count += 1
 
 # Alt Solution O(nlogn)

@@ -59,3 +59,9 @@ O(n) time, O(1) space. Expand ➡️ Shrink ➡️ Count. Easy dubs.
 	- Move left by 1.
 	- After shrinking (if needed), add (right - left + 1) to count.
 3.	Return count.
+
+# [2071. Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/description/?envType=daily-question&envId=2025-05-01)
+
+### TL;DR
+to be added,
+will add when i am confident with this and comprehend fully
