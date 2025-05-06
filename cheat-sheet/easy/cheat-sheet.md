@@ -57,3 +57,13 @@ Count how many pairs of equivalent dominoes exist (e.g., [1,2] ≡ [2,1]).
 ### TL;DR
 Answer in the question
 Intuition is to create an array same length as nums, assign integers as per requirement.
+
+# [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75)
+
+### TL;DR
+Preallocating the result list avoids dynamic resizing, making the merge faster and more memory-efficient for large strings.
+
+# [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/?envType=study-plan-v2&envId=leetcode-75)
+
+### TL;DR 
+The GCD of two strings is the longest string that can be formed by repeating a smaller string.
