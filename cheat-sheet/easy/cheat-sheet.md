@@ -44,10 +44,16 @@ Convert each number to a string, check if its length is even, and count how many
 
 # [1007. Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/?envType=daily-question&envId=2025-05-03)
 
-# TL;DR
+### TL;DR
 Count how many pairs of equivalent dominoes exist (e.g., [1,2] ≡ [2,1]).
 
 ⚠️ Why not sum(1 for ...) or sum(v for ...)?
 - sum(1 for ...) → counts how many types had duplicates ✅
 - sum(v for ...) → counts how many total repeated dominoes ❌
 - But the problem wants how many total pairs of equivalent dominoes 🔥
+
+# [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/?envType=daily-question&envId=2025-05-06)
+
+### TL;DR
+Answer in the question
+Intuition is to create an array same length as nums, assign integers as per requirement.
